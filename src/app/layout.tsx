@@ -8,8 +8,8 @@ import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Luke Berry",
-  description: "Luke Berry's personal website",
+  title: "Antonio Victor",
+  description: "Pessoal blog do Antonio Victor, desenvolvedor fullstack",
 };
 
 const karla = Karla({
@@ -39,7 +39,7 @@ export default function RootLayout({
           {children}
           <ScrollToTop />
         </main>
-        <footer className="mx-auto flex max-w-prose flex-col max-sm:items-start items-center gap-2 py-6 text-sm text-zinc-500 dark:text-zinc-400">
+        {/* <footer className="mx-auto flex max-w-prose flex-col items-center gap-2 py-6 text-sm text-zinc-500 max-sm:items-start dark:text-zinc-400">
           <div className="flex items-center gap-4">
             <a
               className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
@@ -63,10 +63,7 @@ export default function RootLayout({
               @LukeberryPi
             </a>
           </div>
-          <blockquote className="text-zinc-800 dark:text-zinc-300">
-            Smile, you&apos;re alive :)
-          </blockquote>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
