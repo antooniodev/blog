@@ -96,7 +96,7 @@ export default function Header() {
             aria-label="View freelancers"
             aria-current={path.startsWith("/articles") ? "page" : undefined}
           >
-            /articles
+            /artigos
             <Triangle
               aria-hidden="true"
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
