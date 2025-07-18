@@ -13,14 +13,11 @@
   --sh-keyword: #ef4444; /* red-500 */
   --sh-comment: #64748b; /* slate-500 */
 }
-/* min-h-screen bg-zinc-50 text-zinc-800 dark:bg-[#0b1e1a] dark:text-[#f2c063] */
-/* 121821 azul bg */
-/* 1c2f55 hover */
 
 @layer base {
   html,
   body {
-    @apply min-h-screen bg-white text-zinc-800 dark:bg-[#121821] dark:text-zinc-200;
+    @apply min-h-screen bg-white text-zinc-800 dark:bg-blue-primary-dark dark:text-zinc-200;
   }
 
   article p {

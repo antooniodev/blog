@@ -65,7 +65,7 @@ const externalLinks: Link[] = [
     icon: <SiYoutube className="fill-[#FF0032] dark:fill-zinc-200" />,
   },
   {
-    name: "X (formerly Twitter)",
+    name: "X (antigo Twitter)",
     description: "Leia meus pensamentos",
     url: "https://x.com/antooniodev",
     icon: <XLogo />,
@@ -78,11 +78,11 @@ const ExternalLink = (link: Link) => {
       key={link.description}
       href={link.url}
       target="_blank"
-      className="group flex items-center justify-between p-4 transition-all sm:hover:bg-[#4B6A88] sm:dark:hover:bg-[#1c2f55]"
+      className="group flex items-center justify-between p-4 transition-all sm:hover:bg-[#ffeced] sm:dark:hover:bg-blue-secondary"
     >
       <span className="flex items-center gap-4">
         {link.icon} {link.name}
-        <span className="-translate-x-4 text-white opacity-0 transition-all max-sm:hidden sm:group-hover:translate-x-0 sm:group-hover:opacity-100 dark:text-zinc-400">
+        <span className="-translate-x-4 text-zinc-500 opacity-0 transition-all max-sm:hidden sm:group-hover:translate-x-0 sm:group-hover:opacity-100 dark:text-zinc-400">
           {link.description}
         </span>
       </span>
@@ -97,7 +97,7 @@ const ExternalLink = (link: Link) => {
 export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
-      <p className="text-sm">Aqui vai uma pequena introdução sobre mim.</p>
+      <p className="text-[13px]">Brasileiro curioso por tecnologia e (quase) cientista da computação. Trabalho como desenvolvedor fullstack, com um pezinho mais no frontend. Adoro futebol, games e mergulhar nos detalhes que transformam uma ideia em projeto.</p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
           <ExternalLink key={link.url} {...link} />
@@ -113,7 +113,7 @@ export default function HomePage() {
                 <Copy className="size-4" />
               </button> */}
               <a
-                href="mailto:lukeberrypi@gmail.com"
+                href="mailto:antoniov.carvalho19@gmail.com"
                 className="text-zinc-800 dark:text-zinc-200"
               >
                 <Send strokeWidth={1.4} className="size-4" />
@@ -127,11 +127,11 @@ export default function HomePage() {
         </div>
         <div className="flex flex-col gap-2">
           <a
-            href="/luke-berry-cv.pdf"
-            download="Luke-Berry-CV.pdf"
-            className="flex flex-row items-center justify-center gap-3 rounded bg-[#4B6A88] p-4 text-white ring-1 ring-[#4B6A88] transition-all sm:hover:bg-[#34577A] dark:bg-inherit dark:text-[#3B82F6] dark:ring-[#3B82F6] sm:sm:dark:hover:bg-[#1c2f55]"
+            href="/antonio-victor-cv.pdf"
+            download="antonio-victor-CV.pdf"
+            className="flex flex-row items-center justify-center gap-3 rounded bg-[#034fae] p-4 text-white ring-1 ring-[#4B6A88] transition-all sm:hover:bg-[#02367b] dark:bg-inherit dark:text-[#3B82F6] dark:ring-[#3B82F6] sm:sm:dark:hover:bg-[#1c2f55]"
           >
-            <span className="text-nowrap">Download my CV</span>
+            <span className="text-nowrap">Baixe meu CV</span>
             <Download strokeWidth={1.4} className="size-5 max-sm:hidden" />
           </a>
         </div>

@@ -6,83 +6,47 @@ export default function AboutPage() {
       </h1>
       <article>
         <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
-          </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
+          Eu nasci em{" "}
+          <a href="https://pt.wikipedia.org/wiki/Cruz_das_Almas">
+            Cruz das Almas 
+          </a>, no interior da Bahia, o coração do Brasil.
         </p>
         <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
-          </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
+          Desde pequeno, influenciado pelo meu pai, desenvolvi uma paixão por futebol que carrego até hoje.
+          Além disso, sempre fui muito curioso e encantado por computadores e tecnologia.
         </p>
         <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
+          Aos 17 anos, descobri a programação — foi paixão à primeira vista.
+          Poder criar sites, sistemas e aplicativos me mostrou que era possível transformar ideias em realidade.
+          Foi aí que decidi que queria trabalhar nessa área.
         </p>
         <p>
-          But I&apos;d spent too long studying models that weren&apos;t
-          applicable in real-life. I felt disconnected from my studies which led
-          to me dropping out after 2 years.
+          Meses depois, entrei no curso de 
+          {" "}
+          <a href="https://pt.wikipedia.org/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o">Ciência da Computação</a> no Centro Universitário UniRuy.
+          Nesse mesmo momento, dei meu primeiro passo na vida adulta: me mudei para{""}
+          <a href="https://pt.wikipedia.org/wiki/Salvador"> Salvador</a>, uma cidade linda, cheia de cultura e praias incríveis, que todo mundo deveria conhecer.
         </p>
         <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
+          Durante a faculdade, conheci pessoas, disciplinas e tecnologias que eu nem imaginava.
+          Dois anos depois, consegui meu primeiro emprego como estagiário de programação, atuando como desenvolvedor frontend.
+          Foi quando descobri o React e comecei a explorar o universo do JavaScript.
         </p>
         <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
+          Com o tempo, me aventurei no backend com Node.js e acabei me tornando fullstack.
+          Também descobri uma nova paixão: pensar, planejar e projetar sistemas do zero, até chegar na hora de codar.
+          Essa sensação de tirar uma ideia do papel é algo que me motiva todos os dias.
         </p>
         <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
+          Hoje, sigo na reta final da faculdade e trabalho como desenvolvedor fullstack júnior em uma das maiores empresas de tecnologia no Nordeste.
+          Continuo com o mesmo espírito curioso, sempre aprendendo coisas novas e buscando transformar projetos em algo real.
         </p>
         <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
+          Quer bater um papo? Me chama no <a href="https://x.com/antooniodev">X</a> ou manda um e-mail <a href="mailto:antoniov.carvalho19@gmail.com">antoniov.carvalho19@gmail.com</a>.
         </p>
+        <p>Café passado, problemas também...</p>
         <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
-        </p>
-        <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
-        </p>
-        <p>Smile, you&apos;re alive :)</p>
-        <p>
-          Best,
-          <br />
-          Luke
+          Assinado, Antonio
         </p>
       </article>
     </>

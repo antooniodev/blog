@@ -79,7 +79,7 @@ export default function Header() {
             )}
           </button>
           <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+            className="group relative rounded px-1 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
             href="/projects"
             aria-label="View projects"
             aria-current={path === "/projects" ? "page" : undefined}
@@ -90,10 +90,10 @@ export default function Header() {
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
             />
           </Link>
-          <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+          {/* <Link
+            className="group relative rounded px-1 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
             href="/articles"
-            aria-label="View freelancers"
+            aria-label="View articles"
             aria-current={path.startsWith("/articles") ? "page" : undefined}
           >
             /artigos
@@ -101,9 +101,9 @@ export default function Header() {
               aria-hidden="true"
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
             />
-          </Link>
+          </Link> */}
           <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+            className="group relative rounded px-1 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
             href="/about"
             aria-label="View about page"
             aria-current={path === "/about" ? "page" : undefined}
