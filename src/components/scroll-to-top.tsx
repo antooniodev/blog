@@ -35,7 +35,7 @@ export const ScrollToTop = () => {
       <button
         onClick={() => window.scrollTo({ top: 0 })}
         aria-label="Scroll to top"
-        className={`${isVisible ? "opacity-100" : "opacity-0"} fixed z-10 items-center gap-2 rounded bg-zinc-50 p-3 ring-1 ring-zinc-400 transition-all max-sm:bottom-6 max-sm:right-6 max-sm:flex sm:hover:bg-[#ffeced] dark:bg-zinc-900 dark:ring-zinc-500 sm:hover:dark:bg-zinc-800`}
+        className={`${isVisible ? "opacity-100" : "opacity-0"} fixed z-10 items-center gap-2 rounded bg-white p-3 ring-1 ring-zinc-400 transition-all max-sm:bottom-6 max-sm:right-6 max-sm:flex sm:hover:bg-[#ffeced] dark:bg-blue-primary-dark dark:ring-zinc-500 sm:hover:dark:bg-zinc-800`}
       >
         <ArrowUp className="size-5" />
       </button>
