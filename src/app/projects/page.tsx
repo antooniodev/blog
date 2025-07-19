@@ -81,7 +81,7 @@ const projects: Project[] = [
       "Aplicativo desenvolvido para que usuários registrem seus treinos de forma prática e acompanhem sua evolução ao longo do tempo. O foco está em oferecer uma experiência rápida, intuitiva e visualmente clara, ajudando cada pessoa a monitorar seu progresso e manter a motivação.",
     // url: "https://www.emaatacadista.com.br/",
     imageUrl: "/projects/gymlog.png",
-    githubUrl: "https://github.com/GymLogCorp/gym_log",
+    githubUrl: "https://github.com/antooniodev/gym_log",
     technologies: (
       <div className="flex items-center gap-x-3">
         <span className="rounded-full bg-[#38abf8] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
