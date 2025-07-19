@@ -7,49 +7,85 @@ interface Project {
   description: string;
   imageUrl: string;
   githubUrl: string;
-  url: string;
+  url?: string;
   technologies: ReactNode;
 }
 
 const projects: Project[] = [
   {
-    name: "css2wind",
+    name: "Financy",
     description:
-      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
-    url: "https://css2wind.com",
-    imageUrl: "/projects/css2wind.png",
-    githubUrl: "https://github.com/LukeberryPi/css2wind",
+      "Financy é um projeto de controle financeiro com o objetivo de oferecer uma interface intuitiva para gestão financeira, permitindo o controle de receitas, despesas e análises financeiras detalhadas.",
+    url: "https://financy-dashboard.vercel.app",
+    imageUrl: "/projects/financy.png",
+    githubUrl: "https://github.com/antooniodev/financy",
     technologies: (
       <div className="flex items-center gap-x-3">
         <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
           TypeScript
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+        <span className="rounded-full bg-[#35d432] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Node.js
+        </span>
+        <span className="rounded-full bg-blue-700 px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          React
+        </span>
+      </div>
+    ),
+  },
+  {
+    name: "Camaleão arquitetura",
+    description:
+      "Landing page institucional criada para apresentar projetos de arquitetura, contar a história da empresa e mostrar quem são os sócios. O objetivo é atrair novos clientes com um conteúdo visualmente atraente que reforça credibilidade e facilita o contato direto para orçamentos e dúvidas.",
+    url: "https://camaleaoarquitetura.com/",
+    imageUrl: "/projects/camaleao-lp.png",
+    githubUrl: "https://github.com/antooniodev/lp-camaleao-arquitetura",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          Typescript
+        </span>
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
           TailwindCSS
         </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
           Next.js
         </span>
       </div>
     ),
   },
   {
-    name: "phived",
+    name: "EMA atacadista",
     description:
-      "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
-    url: "https://phived.com",
-    imageUrl: "/projects/phived.png",
-    githubUrl: "https://github.com/LukeberryPi/phived",
+      "Landing page institucional desenvolvida para a EMA Atacadista, focada em destacar a variedade e qualidade dos materiais de construção oferecidos. O objetivo é atrair novos clientes com informações claras sobre produtos e serviços, além de facilitar o contato direto para orçamentos e dúvidas.",
+    url: "https://www.emaatacadista.com.br/",
+    imageUrl: "/projects/ema-atacadista.png",
+    githubUrl: "https://github.com/antooniodev/ema-atacadista",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
-          React
+        <span className="rounded-full bg-[#fe6a00] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          HTML
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
-          TailwindCSS
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          CSS
         </span>
-        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
-          Vite
+        <span className="rounded-full bg-[#fafa4e] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          Javascript
+        </span>
+      </div>
+    ),
+  },
+  {
+    name: "GymLog",
+    description:
+      "Aplicativo desenvolvido para que usuários registrem seus treinos de forma prática e acompanhem sua evolução ao longo do tempo. O foco está em oferecer uma experiência rápida, intuitiva e visualmente clara, ajudando cada pessoa a monitorar seu progresso e manter a motivação.",
+    // url: "https://www.emaatacadista.com.br/",
+    imageUrl: "/projects/gymlog.png",
+    githubUrl: "https://github.com/GymLogCorp/gym_log",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#38abf8] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          FLutter
         </span>
       </div>
     ),
@@ -80,17 +116,19 @@ function ProjectCard({
         alt="Logo for css2wind website"
       />
       <div className="flex w-full justify-between divide-x divide-zinc-400 dark:divide-zinc-500">
+        {url &&
         <a
-          href={url}
-          target="_blank"
-          className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-zinc-200 sm:dark:hover:bg-zinc-800"
+        href={url}
+        target="_blank"
+        className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-[#ffeced] sm:dark:hover:bg-blue-secondary"
         >
           <Globe strokeWidth={1.4} className="size-5" /> Visit website
         </a>
+        }
         <a
           href={githubUrl}
           target="_blank"
-          className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-zinc-200 sm:dark:hover:bg-zinc-800"
+          className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-[#ffeced] sm:dark:hover:bg-blue-secondary"
         >
           <GitBranch strokeWidth={1.4} className="size-5" /> View code
         </a>
@@ -107,7 +145,7 @@ export default function ProjectsPage() {
       </h1>
       <div className="space-y-20">
         {projects.map((project) => (
-          <ProjectCard key={project.url} {...project} />
+          <ProjectCard key={project.name} {...project} />
         ))}
       </div>
     </>
