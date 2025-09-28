@@ -58,12 +58,12 @@ const externalLinks: Link[] = [
     url: "https://github.com/antooniodev",
     icon: <SiGithub />,
   },
-  {
-    name: "YouTube",
-    description: "Assista meus vídeos",
-    url: "https://www.youtube.com/@antooniodev",
-    icon: <SiYoutube className="fill-[#FF0032] dark:fill-zinc-200" />,
-  },
+  // {
+  //   name: "YouTube",
+  //   description: "Assista meus vídeos",
+  //   url: "https://www.youtube.com/@antooniodev",
+  //   icon: <SiYoutube className="fill-[#FF0032] dark:fill-zinc-200" />,
+  // },
   {
     name: "X (antigo Twitter)",
     description: "Leia meus pensamentos",
