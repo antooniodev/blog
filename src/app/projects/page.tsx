@@ -76,6 +76,27 @@ const projects: Project[] = [
     ),
   },
   {
+    name: "Vinícius Pereira Advocacia",
+    description:
+      "Landing page institucional desenvolvida para a Vinícius Pereira Advocacia, focada em destacar a variedade e qualidade dos serviços jurídicos oferecidos. O objetivo é atrair novos clientes com informações claras sobre produtos e serviços, além de facilitar o contato direto para orçamentos e dúvidas.",
+    url: "https://viniciuspereirasantos.com.br/",
+    imageUrl: "/projects/vinicius.png",
+    githubUrl: "https://github.com/antooniodev/lp-vinicius-advocacia",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#fe6a00] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          HTML
+        </span>
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          CSS
+        </span>
+        <span className="rounded-full bg-[#fafa4e] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          Javascript
+        </span>
+      </div>
+    ),
+  },
+  {
     name: "GymLog",
     description:
       "Aplicativo desenvolvido para que usuários registrem seus treinos de forma prática e acompanhem sua evolução ao longo do tempo. O foco está em oferecer uma experiência rápida, intuitiva e visualmente clara, ajudando cada pessoa a monitorar seu progresso e manter a motivação.",
