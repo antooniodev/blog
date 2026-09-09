@@ -1,5 +1,13 @@
-import { getArticleData } from "@/src/lib/articles";
+import { getArticleData, getArticles } from "@/src/lib/articles";
 import { Article } from "../../../components/article";
+
+
+export async function generateStaticParams() {
+  const articles = getArticles();
+  return articles.map((article) => ({
+    slug: article.id,
+  }));
+}
 
 function Tag({ tag }: { tag: string }) {
   return (
